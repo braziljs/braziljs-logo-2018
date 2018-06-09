@@ -4,6 +4,7 @@ This is the new BrazilJS brand, announced in June 2018.
 Use this tool to customize it, to play with it, hack it, and to submit new themes.
 
 Check the [live tool](https://braziljs.github.io/braziljs-logo-2018/) to see all the themes:
+[![BrazilJS Logo customization tool](https://github.com/braziljs/braziljs-logo-2018/blob/master/braziljs-logo-tool.png?raw=true)](https://braziljs.github.io/braziljs-logo-2018/)
 
 ### Creating a new theme
 
