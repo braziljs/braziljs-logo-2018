@@ -1,0 +1,17 @@
+
+.def-horizontal .logo-brazil {
+    width: 11em;
+    height: 11em;
+    left: -20em;
+}
+.def-horizontal .logo-j {
+    left: 9em;
+    top: 6.3em;
+}
+.def-horizontal .logo-j-j:after {
+    height: 5em;
+}
+.def-horizontal .logo-s {
+    left: 18em;
+    top: 6.3em;
+}

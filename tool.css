@@ -1,0 +1,88 @@
+body {
+    background: #444;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Roboto Mono",monospace;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.grid {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./grid.png');
+    z-index: 2;
+    opacity: .2;
+}
+.wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    font-family: Anton,san-serif;
+    z-index: 4;
+}
+.controllers {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: solid 1px #555;
+    color: #777;
+    z-index: 6;
+}
+.list-of-themes {
+    float: left;
+    margin: 12px 10px;
+}
+.list-of-themes span {
+    display: inline-block;
+}
+.colors-container {
+    float: right;
+    margin: 10px;
+}
+.controllers input[type=color] {
+    border: none;
+    padding: 0;
+    background: #fff;
+    margin: 0;
+}
+.theme-description {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    padding-right: 100px;
+    width: 100%;
+    min-height: 50px;
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+    z-index: 5;
+    white-space: pre-wrap;
+}
+.github-button-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9;
+}
+
+.highlighted .logo-container *,
+.highlighted .logo-container *:before,
+.highlighted .logo-container *:after,
+.highlighted .logo-container:before,
+.highlighted .logo-container:after {
+    outline: solid 1px #f00;
+}

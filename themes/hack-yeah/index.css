@@ -1,0 +1,57 @@
+
+.hack-yeah .logo-j .logo-fx {
+    position: absolute;
+    bottom: 0;
+    left: -2em;
+    height: 2em;
+    width: 10em;
+}
+.hack-yeah .logo-brazil-container:before,
+.hack-yeah .logo-brazil-container:after {
+    content: 'hack';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    transform: scale(1.4);
+}
+.hack-yeah .logo-brazil-container:after {
+    content: 'yeah';
+    top: 1.4em;
+}
+.hack-yeah .logo-brazil {
+    opacity: 0;
+}
+
+.hack-yeah .logo-j .logo-fx:before,
+.hack-yeah .logo-j .logo-fx:after {
+    content: '';
+    position: absolute;
+    bottom: 1em;
+    width: 1.7em;
+}
+.hack-yeah .logo-j .logo-fx:before {
+    background: inherit;
+    height: 3em;
+    left: 4.2em;
+}
+.hack-yeah .logo-j .logo-fx:after {
+    background: inherit;
+    height: 3em;
+    left: 6.1em;
+}
+.hack-yeah .logo-j-j {
+    bottom: 0;
+}
+.hack-yeah .logo-j-j:before {
+    height: 6em;
+}
+.hack-yeah .logo-j-j:after {
+    height: 5em;
+}
+.hack-yeah .logo-s {
+    height: 0;
+}
