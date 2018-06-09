@@ -3,6 +3,9 @@
 This is the new BrazilJS brand, announced in June 2018.  
 Use this tool to customize it, to play with it, hack it, and to submit new themes.
 
+Check the [live tool](https://braziljs.github.io/braziljs-logo-2018/) to see all the themes:
+
+
 ### Creating a new theme
 
 Clone this project and serve it in your own _HTTP Server_, like an Apache or npm's `http-server`.  
