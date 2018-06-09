@@ -45,5 +45,15 @@ You can also customize them (as well as the _body's background_ from your theme 
 
 All elements will animate any change using _CSS Transitions_. Feel free to customize transitions or create animations, but be careful to always apply them under your theme's _className_.
 
+### Contributions
+
+When submiting a new theme, you are giving us permission to use it and show it in different places. Whenever possible, we will attribute cradits to your theme.  
+Your reference will stay in this repository as the _author's_ reference for the theme.
+
+Send us your pull requests and we will approve them as we identify they are not braking any rules.
+
+Before you submit, please be sure you follow the rules described in the _CODE_OF_CONDUCT.md_ file.
+
+Logos/themes that are offensive, promote hate or prejudice or brake any rule or law will not be accepted.  
 
 
