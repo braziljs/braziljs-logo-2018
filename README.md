@@ -1,3 +1,5 @@
+![Animated BrazilJS Logo](https://github.com/braziljs/braziljs-logo-2018/blob/master/animated-braziljs-logo.gif?raw=true)
+
 # BrazilJS's logo
 
 This is the new BrazilJS brand, announced in June 2018.  
@@ -5,6 +7,7 @@ Use this tool to customize it, to play with it, hack it, and to submit new theme
 
 Check the [live tool](https://braziljs.github.io/braziljs-logo-2018/) to see all the themes:
 [![BrazilJS Logo customization tool](https://github.com/braziljs/braziljs-logo-2018/blob/master/braziljs-logo-tool.png?raw=true)](https://braziljs.github.io/braziljs-logo-2018/)
+
 
 ### Creating a new theme
 
@@ -43,6 +46,8 @@ You can customize the colors by changing the _CSS variables_ used. They are:
 - `--color-third`
 
 You can also customize them (as well as the _body's background_ from your theme config).  
+
+> **IMPORTANT** WHen using colors (not image _URLs_ or _gradients_) in the variables, always use colors in valid formats as `#000000` or `rgba(0, 0, 0, 0)`. Do not use a short version of hex colors (like `#f90` instead of `#ff9900`). We use those formats to validate and keep the controllers up to date, and the _HTML Color Input_ do not allow the short version of hexadecimal colors.
 
 ### Transitions
 

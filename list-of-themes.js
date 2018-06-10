@@ -34,4 +34,18 @@ window.listOfThemes = {
         background: 'url(themes/brazuca/brazilian-flag.jpg) center bottom',
         author: '@felipenmoura'
     },
+    "square-solid": {
+        name: 'Solid Square',
+        description: 'This is a squared version of the logo.\nThis is specially useful as an icon or favicon, or a web app icon.',
+        className: 'square-solid',
+        background: '#f9f9f9',
+        author: '@felipenmoura'
+    },
+    "square-hollow": {
+        name: 'Hollow Square',
+        description: 'This is another squared version of the logo, but it\'s hollow, with a transparent background.\nThis is also very useful for icons and favicons, or web app icon.',
+        className: 'square-hollow',
+        background: '#f9f9f9',
+        author: '@felipenmoura'
+    },
 };

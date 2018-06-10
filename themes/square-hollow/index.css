@@ -1,0 +1,52 @@
+
+.square-hollow {
+    --color-primary:#000000;
+    --color-secondary:#000000;
+    --color-third:#000000;
+
+    border: solid .5em var(--color-secondary);
+    background: transparent;
+    width: 30em;
+    height: 30em;
+    border-radius: 1em;
+}
+
+.square-hollow .logo-dash {
+    background: var(--color-primary);
+    height: 3em;
+}
+.square-hollow .logo-brazil {
+    fill: var(--color-primary);
+    width: 11em;
+    height: 8em;
+    left: 2em;
+}
+
+.square-hollow .logo-j,
+.square-hollow .logo-s {
+    width: 12em;
+    height: 12em;
+}
+
+.square-hollow .logo-j {
+    top: 16em;
+    left: 7em;
+}
+
+.square-hollow .logo-j-j {
+    height: 2.5em;
+    bottom: 4.5em;
+}
+
+.square-hollow .logo-j-j:before {
+    height: 4.5em;
+    width: 3em;
+}
+.square-hollow .logo-j-j:after {
+    height: 7.5em;
+    width: 3em;
+}
+
+.square-hollow .logo-s {
+    left: 21em;
+}

@@ -1,0 +1,51 @@
+
+.square-solid {
+    --color-primary:#ffffff;
+    --color-secondary:#000000;
+    --color-third:#ffffff;
+
+    background: var(--color-secondary);
+    width: 30em;
+    height: 30em;
+    border-radius: 1em;
+}
+
+.square-solid .logo-dash {
+    background: var(--color-primary);
+    height: 3em;
+}
+.square-solid .logo-brazil {
+    fill: var(--color-primary);
+    width: 11em;
+    height: 8em;
+    left: 2em;
+}
+
+.square-solid .logo-j,
+.square-solid .logo-s {
+    width: 12em;
+    height: 12em;
+}
+
+.square-solid .logo-j {
+    top: 16em;
+    left: 7em;
+}
+
+.square-solid .logo-j-j {
+    height: 2.5em;
+    bottom: 4.5em;
+}
+
+.square-solid .logo-j-j:before {
+    height: 4.5em;
+    width: 3em;
+}
+.square-solid .logo-j-j:after {
+    height: 7.5em;
+    width: 3em;
+}
+
+.square-solid .logo-s {
+    left: 21em;
+}
