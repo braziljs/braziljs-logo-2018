@@ -98,3 +98,12 @@ body {
     left: 2em;
     transition: all ease-in-out .5s;
 }
+
+@keyframes spin {
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}

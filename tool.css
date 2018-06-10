@@ -31,6 +31,7 @@ body {
     justify-content: center;
     font-family: Anton,san-serif;
     z-index: 4;
+    perspective: 30em;
 }
 .controllers {
     position: fixed;

@@ -37,6 +37,16 @@ Customize the elements prefixing their classes with the `className` you defined 
 
 Open a pull request submiting your theme to the main project.
 
+### Structure
+
+Some important notes about the _HTML_ structure:
+
+- Both `brazil` and `S` are _SVGs_, the letter `J` and its _dash effect_ are in plain _HTML Div Elements_.
+- You can add the animation `spin` to your theme to see it spining in 3D.
+- Have in mind that some _3D Effects_ will behave differently in SVGs (some browsers are still buggy about it).
+- The default font family used is `"Roboto Mono",monospace`, in case you are using `content` in _pseudo elements_.
+- When you define a gradient or image as one of the three main _CSS variabled_, we lock the color so users can't change them in your theme.
+
 ### Colours
 
 You can customize the colors by changing the _CSS variables_ used. They are:

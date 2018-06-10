@@ -9,6 +9,7 @@
     width: 30em;
     height: 30em;
     border-radius: 1em;
+    animation: spin linear infinite 10s;
 }
 
 .square-hollow .logo-dash {
@@ -26,11 +27,12 @@
 .square-hollow .logo-s {
     width: 12em;
     height: 12em;
+    transform: translateZ(5em);
 }
 
 .square-hollow .logo-j {
     top: 16em;
-    left: 7em;
+    left: 2em;
 }
 
 .square-hollow .logo-j-j {
@@ -48,5 +50,5 @@
 }
 
 .square-hollow .logo-s {
-    left: 21em;
+    left: 15em;
 }
