@@ -48,4 +48,11 @@ window.listOfThemes = {
         background: '#f9f9f9',
         author: '@felipenmoura'
     },
+    "retro-80s": {
+        name: '80s retrowave',
+        description: '80s retrowave theme by @BrOrlandi. Background image by Rafaël De Jongh on DeviantArt.',
+        className: 'retro-80s',
+        background: 'url(themes/retro-80s/retrowave_80_s_bg_by_rafael_de_jongh.png) center',
+        author: '@BrOrlandi'
+    },
 };

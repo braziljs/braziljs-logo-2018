@@ -1,0 +1,55 @@
+
+.retro-80s {
+    --retro-color: #fc3682;
+    --color-primary: var(--retro-color);
+    --color-secondary: var(--retro-color);
+    --color-third: var(--retro-color);
+
+    border: solid .5em #0063be;
+    background: linear-gradient(0deg, #000000 0%, #840093 25%, #FFEACA 50%, #005EEA 75%, #000000 100%);
+    width: 30em;
+    height: 30em;
+    border-radius: 1em;
+    animation: spin linear infinite 10s;
+}
+
+.retro-80s .logo-dash {
+    background: var(--color-primary);
+    height: 3em;
+}
+.retro-80s .logo-brazil {
+    fill: var(--color-primary);
+    width: 11em;
+    height: 8em;
+    left: 2em;
+}
+
+.retro-80s .logo-j,
+.retro-80s .logo-s {
+    width: 12em;
+    height: 12em;
+    transform: translateZ(5em);
+}
+
+.retro-80s .logo-j {
+    top: 16em;
+    left: 2em;
+}
+
+.retro-80s .logo-j-j {
+    height: 2.5em;
+    bottom: 4.5em;
+}
+
+.retro-80s .logo-j-j:before {
+    height: 4.5em;
+    width: 3em;
+}
+.retro-80s .logo-j-j:after {
+    height: 7.5em;
+    width: 3em;
+}
+
+.retro-80s .logo-s {
+    left: 15em;
+}
